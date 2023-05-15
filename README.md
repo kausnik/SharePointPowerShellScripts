@@ -11,7 +11,7 @@ Basic scripts to manage SharePoint migrations and corrections
 
 ## Intermediate
 1. CopyFiles_Folder_Metadata: this script connects to a SharePoint site, retrieves files from a source library, creates corresponding folders in a destination library based on a specified metadata value, and copies the files to the destination library while preserving the folder structure. It handles exceptions and provides feedback on the success or failure of each file operation.
-2. Update_metadata_fromCSV : It's a handy script to bulk upload Metadata on a document library. This PowerShell script connects to a SharePoint site and library specified by the parameters. It imports a CSV file containing key-value pairs. The script then iterates through each row in the CSV, creating a hashmap with the key-value pairs. Next, it retrieves all files from the source library and copies them to the destination library while updating the "Metadata" property of each file with the corresponding value from the hashmap.
+2. Update_metadata_fromCSV : It's a handy script to bulk upload Metadata on a document library. This PowerShell script connects to a SharePoint site and library specified by the parameters. It imports a CSV file containing key-value pairs. The script then iterates through each row in the CSV, creating a hashmap with the key-value pairs. Next, it retrieves all files from the source library a while updating the a specific "Metadata" property of each file with the corresponding value from the hashmap.
 
 ## Advanced
-1. Work in progress : Create Document set with lokk up to termset 
+1. Work in progress : Create Document set with look up to termset 
