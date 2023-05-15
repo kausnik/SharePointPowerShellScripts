@@ -30,8 +30,8 @@ $csvData = Import-Csv -Path $CSVFilePath
 
 # Iterate through each row in the CSV and add key-value pairs to the hashmap
 foreach ($row in $csvData) {
-    $key = $row.Name   # Replace 'KeyColumn' with the actual column name from your CSV
-    $value = $row.TestMD   # Replace 'ValueColumn' with the actual column name from your CSV
+    $key = $row.Name   # Replace 'KeyColumn' with the actual column name from your CSV; I'm using the file name
+    $value = $row.TestMD   # Replace 'ValueColumn' with the metadata column name from your CSV; I's using TestMD as the metadata column to be updated
     $hashmap[$key] = $value
 }
 
