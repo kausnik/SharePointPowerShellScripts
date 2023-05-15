@@ -8,7 +8,7 @@
 
 
 $SiteURL = "https://zsdzr.sharepoint.com/sites/TestSitePowershell"
-$CSVFilePath = "C:\Users\nikhi\OneDrive\Client Work\BC Pensions\Scripts-Powershell\Basic\FolderList.csv"
+$CSVFilePath = "C:\Users\nikhi\OneDrive\Client Work\<test>\Scripts-Powershell\Basic\FolderList.csv"
 $LibraryName = "TestPowershell"
  
 Try {
